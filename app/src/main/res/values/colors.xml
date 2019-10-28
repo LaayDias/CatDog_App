@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+                <!-- nav -->
+    <color name="bg_page">#FEFEFE</color>
+    <color name="bg_roxo">#D08266BB</color>
+                <!-- btn sucess -->
+    <color name="bg_verde">#32CD32</color>
+
+
+
+
+            <!-- MARCAÇÃO -->
+    <color name="marcacao">#FFFF00</color>
+</resources>
