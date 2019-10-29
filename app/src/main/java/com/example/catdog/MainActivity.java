@@ -1,26 +1,27 @@
 package com.example.catdog;
 
-import androidx.appcompat.app.AppCompatActivity;
+    import androidx.appcompat.app.AppCompatActivity;
+    import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Bundle;
-import android.widget.ImageView;
-import com.synnapps.carouselview.CarouselView;
-import com.synnapps.carouselview.ImageListener;
+    import android.os.Bundle;
+    import android.widget.ImageView;
+
+    import com.synnapps.carouselview.CarouselView;
+    import com.synnapps.carouselview.ImageListener;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    /* banner*/
     private int[] imagesAnimation = new int[]{
             R.drawable.banner_um,
             R.drawable.banner_dois,
             R.drawable.banner_tres
     };
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home);
 
         CarouselView carouselView = findViewById(R.id.carousel);
         carouselView.setPageCount(imagesAnimation.length);
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void setImageForPosition(int position, ImageView imageView) {
                 imageView.setImageResource(imagesAnimation[position]);
             }
-        });
+        });    /* fim banner*/
+
     }
 }
