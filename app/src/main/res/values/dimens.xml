@@ -3,4 +3,5 @@
     <dimen name="horizontal_margin">16dp</dimen>
     <dimen name="vertical_margin">16dp</dimen>
     <dimen name="text_title">20dp</dimen>
+    <dimen name="margin_end">250dp</dimen>
 </resources>

@@ -8,6 +8,8 @@
     <color name="bg_roxo">#D08266BB</color>
                 <!-- btn sucess -->
     <color name="bg_verde">#32CD32</color>
+    <!-- fundo -->
+    <color name="black">#000</color>
 
 
 
