@@ -5,6 +5,18 @@ import com.google.gson.annotations.SerializedName;
 
 public class Product {
 
+    public Product(long id, String title, String email, int amount, String desc, double rating, double price, boolean isOffer, int image) {
+        this.id = id;
+        this.title = title;
+        this.email = email;
+        this.amount = amount;
+        this.desc = desc;
+        this.rating = rating;
+        this.price = price;
+        this.isOffer = isOffer;
+        this.image = image;
+    }
+
     @Expose
     @SerializedName("id")
     private long id;

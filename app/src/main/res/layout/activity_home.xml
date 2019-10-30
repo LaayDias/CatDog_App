@@ -20,7 +20,7 @@
         layout="@layout/activity_carousel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"></include>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
@@ -30,7 +30,7 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/activity_nav_header"
         app:menu="@menu/nav_itens_drawer" />
-    <include
-        layout="@layout/activity_lista_produtos"></include>
+
+    <include layout="@layout/activity_lista_produtos" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
