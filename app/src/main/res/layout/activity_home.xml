@@ -30,5 +30,7 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/activity_nav_header"
         app:menu="@menu/nav_itens_drawer" />
+    <include
+        layout="@layout/activity_lista_produtos"></include>
 
 </androidx.drawerlayout.widget.DrawerLayout>

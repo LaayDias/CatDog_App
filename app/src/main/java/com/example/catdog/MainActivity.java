@@ -3,6 +3,7 @@ package com.example.catdog;
     import androidx.appcompat.app.AppCompatActivity;
     import androidx.recyclerview.widget.RecyclerView;
 
+    import android.content.Context;
     import android.os.Bundle;
     import android.widget.ImageView;
 
@@ -10,6 +11,12 @@ package com.example.catdog;
     import com.synnapps.carouselview.ImageListener;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Context context;
+    private RecyclerView recyclerView;
+    private LineAdapter lineAdapter;
+
+
 
     /* banner*/
     private int[] imagesAnimation = new int[]{
@@ -30,7 +37,11 @@ public class MainActivity extends AppCompatActivity {
             public void setImageForPosition(int position, ImageView imageView) {
                 imageView.setImageResource(imagesAnimation[position]);
             }
-        });    /* fim banner*/
+        });
 
-    }
+    } /* fim banner*/
+
+
+
+
 }
